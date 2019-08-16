@@ -370,11 +370,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (25)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -444,6 +439,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (25)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -517,8 +517,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 11, y: -0.5}
-  m_SizeDelta: {x: -32, y: -3}
+  m_AnchoredPosition: {x: 33.84, y: -0.99999}
+  m_SizeDelta: {x: 13.7, y: -2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &55922345
 MonoBehaviour:
@@ -541,7 +541,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: d28e3903dda4134418abf25c3d82d510, type: 3}
     m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
@@ -553,7 +553,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: AUTO
+  m_Text: AUTO Scale
 --- !u!222 &55922346
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -640,11 +640,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (34)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -715,6 +710,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (34)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!1001 &122118862
@@ -724,11 +724,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (15)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -798,6 +793,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (15)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -1014,8 +1014,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -40}
-  m_SizeDelta: {x: 70, y: 45}
+  m_AnchoredPosition: {x: 0.000005722, y: -43.005993}
+  m_SizeDelta: {x: 106.79, y: 54.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &132786148
 MonoBehaviour:
@@ -1086,7 +1086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1271,6 +1271,81 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1206217170}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &153960651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 153960652}
+  - component: {fileID: 153960654}
+  - component: {fileID: 153960653}
+  m_Layer: 0
+  m_Name: wave
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &153960652
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153960651}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -3.5999997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1513543912}
+  m_Father: {fileID: 1336208216}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 78.140015, y: -24.535522}
+  m_SizeDelta: {x: 443.71997, y: 49.67}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &153960653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153960651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.8241365, b: 1, a: 0.21568628}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &153960654
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153960651}
+  m_CullTransparentMesh: 0
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -1420,9 +1495,9 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: d28e3903dda4134418abf25c3d82d510, type: 3}
     m_FontSize: 16
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
@@ -1448,11 +1523,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1523,6 +1593,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (2)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!1 &185610341
@@ -1559,8 +1634,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 11, y: -0.5}
-  m_SizeDelta: {x: -32, y: -3}
+  m_AnchoredPosition: {x: 24.94, y: -0.99999}
+  m_SizeDelta: {x: -4.13, y: -2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &185610343
 MonoBehaviour:
@@ -1583,7 +1658,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: d28e3903dda4134418abf25c3d82d510, type: 3}
     m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
@@ -1595,7 +1670,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: AUTO SWITCH
+  m_Text: AUTO Switch
 --- !u!222 &185610344
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1720,7 +1795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5019608}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1728,13 +1803,13 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: d28e3903dda4134418abf25c3d82d510, type: 3}
     m_FontSize: 15
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 49
-    m_Alignment: 0
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1756,17 +1831,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 243480713}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1336208216}
-  m_RootOrder: 1
+  m_Father: {fileID: 533549770}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 5, y: -5}
-  m_SizeDelta: {x: 200, y: 25}
+  m_AnchoredPosition: {x: 5.0000005, y: -5.0000005}
+  m_SizeDelta: {x: 245, y: 32.58}
   m_Pivot: {x: 0, y: 1}
 --- !u!4 &264847647 stripped
 Transform:
@@ -2147,14 +2222,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 0.5254902}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.39607844}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 375a3a16fe7af3e4e9a6abf4c901900e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2307,7 +2382,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: e97b813600cc7c04c9284edff8da8fe0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2422,11 +2497,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (36)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2497,6 +2567,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (36)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!1 &436056041
@@ -2549,7 +2624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.73333335}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2557,9 +2632,9 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: d28e3903dda4134418abf25c3d82d510, type: 3}
     m_FontSize: 16
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -2700,11 +2775,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (12)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2775,6 +2845,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (12)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!4 &499328664 stripped
@@ -2833,7 +2908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.73333335}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2841,9 +2916,9 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: d28e3903dda4134418abf25c3d82d510, type: 3}
     m_FontSize: 16
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -2941,6 +3016,81 @@ Transform:
   m_Father: {fileID: 569574040}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &533549769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 533549770}
+  - component: {fileID: 533549772}
+  - component: {fileID: 533549771}
+  m_Layer: 0
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &533549770
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533549769}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 243480716}
+  m_Father: {fileID: 1336208216}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 128.14001, y: -25.050003}
+  m_SizeDelta: {x: 256.28003, y: 50.100006}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &533549771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533549769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.8241365, b: 1, a: 0.21568628}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &533549772
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533549769}
+  m_CullTransparentMesh: 0
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
@@ -3216,11 +3366,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (17)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3290,6 +3435,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (17)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -3956,11 +4106,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (26)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4031,6 +4176,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (26)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!1001 &667025127
@@ -4040,11 +4190,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (21)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4115,6 +4260,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (21)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!1 &672960423
@@ -4152,7 +4302,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -3.7}
-  m_SizeDelta: {x: 41.21, y: 30}
+  m_SizeDelta: {x: 75, y: 30}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &672960425
 MonoBehaviour:
@@ -4175,9 +4325,9 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: d28e3903dda4134418abf25c3d82d510, type: 3}
     m_FontSize: 15
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
@@ -4203,11 +4353,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (39)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4278,6 +4423,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (39)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!4 &715956185 stripped
@@ -4293,11 +4443,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4367,6 +4512,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -4664,11 +4814,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (27)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4738,6 +4883,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (27)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -4944,11 +5094,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (35)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5018,6 +5163,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (35)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -5386,11 +5536,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5461,6 +5606,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (6)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!4 &918978101 stripped
@@ -5482,11 +5632,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (24)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5557,6 +5702,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (24)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!1001 &932128282
@@ -5566,11 +5716,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5640,6 +5785,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -5714,11 +5864,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (13)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5788,6 +5933,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (13)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -5872,11 +6022,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (37)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5947,6 +6092,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (37)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!1 &1019494201
@@ -5984,7 +6134,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.45, y: 36.11}
+  m_AnchoredPosition: {x: -37.50003, y: 37.499996}
   m_SizeDelta: {x: 25, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1019494203
@@ -6079,8 +6229,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -80}
-  m_SizeDelta: {x: 110, y: 30}
+  m_AnchoredPosition: {x: 0.0000095367, y: -80.7}
+  m_SizeDelta: {x: 154.94, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1030156019
 MonoBehaviour:
@@ -6151,7 +6301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
+  m_Color: {r: 0, g: 0.8241365, b: 1, a: 0.21568628}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -6182,11 +6332,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (28)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6257,6 +6402,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (28)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!1001 &1059613966
@@ -6266,11 +6416,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (22)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6340,6 +6485,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (22)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -6458,8 +6608,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 70, y: 45}
+  m_AnchoredPosition: {x: 0.000032444, y: 11.294}
+  m_SizeDelta: {x: 106.79, y: 54.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1112979779
 MonoBehaviour:
@@ -6530,7 +6680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -6590,8 +6740,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -80}
-  m_SizeDelta: {x: 70, y: 45}
+  m_AnchoredPosition: {x: 0.0000048876, y: -97.303}
+  m_SizeDelta: {x: 106.79, y: 54.294}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1153166213
 MonoBehaviour:
@@ -6662,7 +6812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -6693,11 +6843,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (16)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6767,6 +6912,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (16)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -7014,7 +7164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.7058824}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -7050,11 +7200,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (32)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7125,6 +7270,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (32)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!4 &1228195794 stripped
@@ -7189,7 +7339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.73333335}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -7197,9 +7347,9 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: d28e3903dda4134418abf25c3d82d510, type: 3}
     m_FontSize: 16
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
@@ -7252,7 +7402,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 21.35, y: 7.75}
+  m_AnchoredPosition: {x: -146.1, y: 0.0000019073486}
   m_SizeDelta: {x: -42.7, y: 15.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1236635390
@@ -7276,19 +7426,19 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: d28e3903dda4134418abf25c3d82d510, type: 3}
     m_FontSize: 16
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: UI SCALE
+  m_Text: UI Scale
 --- !u!222 &1236635391
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7383,11 +7533,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (11)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7458,6 +7603,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (11)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!1 &1266569235
@@ -7490,12 +7640,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1330256284}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -3.7}
-  m_SizeDelta: {x: 41.21, y: 30}
+  m_SizeDelta: {x: 75, y: 30}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1266569237
 MonoBehaviour:
@@ -7518,9 +7668,9 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: d28e3903dda4134418abf25c3d82d510, type: 3}
     m_FontSize: 15
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
@@ -7574,7 +7724,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -113.04, y: 50}
+  m_AnchoredPosition: {x: 0, y: 63.4}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1277804740
@@ -7673,8 +7823,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -120}
-  m_SizeDelta: {x: 70, y: 45}
+  m_AnchoredPosition: {x: -0.0000038147, y: -151.6}
+  m_SizeDelta: {x: 106.79, y: 54.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1322563027
 MonoBehaviour:
@@ -7745,7 +7895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -7832,6 +7982,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1987374193}
   - {fileID: 1664141936}
   - {fileID: 1266569236}
   m_Father: {fileID: 1336208216}
@@ -7872,8 +8023,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1513543912}
-  - {fileID: 243480716}
+  - {fileID: 153960652}
+  - {fileID: 533549770}
   - {fileID: 1330256284}
   - {fileID: 833401022}
   - {fileID: 130822912}
@@ -7953,11 +8104,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8028,6 +8174,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (5)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!4 &1345196085 stripped
@@ -8043,11 +8194,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (40)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8117,6 +8263,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (40)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -8224,11 +8375,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (30)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8298,6 +8444,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (30)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -8409,7 +8560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
+  m_Color: {r: 0, g: 0.8241365, b: 1, a: 0.21568628}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -13192,11 +13343,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (45)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13267,6 +13413,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (45)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!1001 &1433973504
@@ -13276,11 +13427,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (31)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13350,6 +13496,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (31)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -13459,11 +13610,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13533,6 +13679,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -13817,11 +13968,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (44)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13892,6 +14038,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (44)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!1 &1513543911
@@ -13923,12 +14074,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1336208216}
+  m_Father: {fileID: 153960652}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -5}
+  m_AnchoredPosition: {x: 0.0000076293945, y: 0}
   m_SizeDelta: {x: 300, y: 50}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &1513543913
@@ -13952,7 +14103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6698113, g: 0.26223743, b: 0.26223743, a: 0.49803922}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -13960,13 +14111,13 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: d28e3903dda4134418abf25c3d82d510, type: 3}
     m_FontSize: 25
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 49
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -14127,11 +14278,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 960893680}
     m_Modifications:
-    - target: {fileID: 2363010247822497280, guid: e7d65536456ccad41878679234e5b559,
-        type: 3}
-      propertyPath: m_Name
-      value: spaceRoadsterEE
-      objectReference: {fileID: 0}
     - target: {fileID: 1625870470308406291, guid: e7d65536456ccad41878679234e5b559,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14202,6 +14348,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2363010247822497280, guid: e7d65536456ccad41878679234e5b559,
+        type: 3}
+      propertyPath: m_Name
+      value: spaceRoadsterEE
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7d65536456ccad41878679234e5b559, type: 3}
 --- !u!1001 &1542899339
@@ -14211,11 +14362,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (46)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14285,6 +14431,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (46)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -14412,11 +14563,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (7)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14486,6 +14632,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (7)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -14669,11 +14820,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (23)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14744,6 +14890,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (23)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!1001 &1659888956
@@ -14753,11 +14904,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (19)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14827,6 +14973,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (19)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -14940,11 +15091,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1330256284}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.45, y: 36.11}
+  m_AnchoredPosition: {x: -37.50003, y: 37.499996}
   m_SizeDelta: {x: 25, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1664141937
@@ -15010,11 +15161,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (14)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15084,6 +15230,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (14)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -15216,11 +15367,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15290,6 +15436,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -15439,11 +15590,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (43)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15513,6 +15659,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (43)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -15627,8 +15778,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -80}
-  m_SizeDelta: {x: 110, y: 30}
+  m_AnchoredPosition: {x: 0.000011444, y: -93.5}
+  m_SizeDelta: {x: 141.59, y: 46.17}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1756218701
 MonoBehaviour:
@@ -15699,14 +15850,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
+  m_Color: {r: 0, g: 0.8241365, b: 1, a: 0.21568628}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15934,11 +16085,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (29)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16008,6 +16154,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (29)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -16220,11 +16371,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (20)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16295,6 +16441,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (20)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!1 &1864553981
@@ -16334,7 +16485,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 101.8, y: 28.5}
+  m_AnchoredPosition: {x: 66.3, y: -33.1}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1864553983
@@ -16407,11 +16558,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (42)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16482,6 +16628,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (42)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!1 &1904114232
@@ -16541,7 +16692,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 375a3a16fe7af3e4e9a6abf4c901900e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16795,11 +16946,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16870,6 +17016,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (8)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!1 &1957650677
@@ -16923,11 +17074,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (41)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16998,6 +17144,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (41)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!1 &1973501779
@@ -17043,11 +17194,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (33)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17118,6 +17264,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (33)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!1 &1979989812
@@ -17155,7 +17306,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 145.99, y: 73}
+  m_AnchoredPosition: {x: 0, y: 15.000004}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1979989814
@@ -17230,6 +17381,80 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1597029992}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1987374192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1987374193}
+  - component: {fileID: 1987374195}
+  - component: {fileID: 1987374194}
+  m_Layer: 0
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1987374193
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987374192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1330256284}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 15.69}
+  m_SizeDelta: {x: 0, y: -31.38}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1987374194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987374192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.8241365, b: 1, a: 0.21568628}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1987374195
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987374192}
+  m_CullTransparentMesh: 0
 --- !u!4 &2027077481 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
@@ -17358,11 +17583,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (18)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17432,6 +17652,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (18)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -17543,7 +17768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
+  m_Color: {r: 0, g: 0.8241365, b: 1, a: 0.21568628}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -17653,11 +17878,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17728,6 +17948,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (1)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
 --- !u!1001 &2131389095
@@ -17737,11 +17962,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations (38)
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17811,6 +18031,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations (38)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1488881b315978447bc70e0ba7e12bba, type: 3}
@@ -18111,7 +18336,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: d28e3903dda4134418abf25c3d82d510, type: 3}
     m_FontSize: 79
     m_FontStyle: 0
     m_BestFit: 0
@@ -19169,8 +19394,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -80}
-  m_SizeDelta: {x: 110, y: 30}
+  m_AnchoredPosition: {x: 0.0000038147, y: -80.7}
+  m_SizeDelta: {x: 142.96, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &2410150518923266497
 Transform:
@@ -21964,16 +22189,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6087532997080718174}
     m_Modifications:
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_Name
-      value: RockFormations
-      objectReference: {fileID: 0}
-    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22042,6 +22257,16 @@ PrefabInstance:
     - target: {fileID: 1717803466267414698, guid: 1488881b315978447bc70e0ba7e12bba,
         type: 3}
       propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_Name
+      value: RockFormations
+      objectReference: {fileID: 0}
+    - target: {fileID: 2417734802889974457, guid: 1488881b315978447bc70e0ba7e12bba,
+        type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -22448,7 +22673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.39215687}
+  m_Color: {r: 0, g: 0.8241365, b: 1, a: 0.21568628}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -23003,7 +23228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.73333335}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -23011,9 +23236,9 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: d28e3903dda4134418abf25c3d82d510, type: 3}
     m_FontSize: 16
-    m_FontStyle: 1
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
