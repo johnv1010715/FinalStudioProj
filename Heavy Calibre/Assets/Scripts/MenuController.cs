@@ -199,8 +199,8 @@ public class MenuController : MonoBehaviour
         Application.Quit();
     }
 
-    public void MenuReturn()
+    public void LoadScene(string name)
     {
-        SceneManager.LoadScene("Start Menu");
+        SceneManager.LoadScene(name);
     }
 }

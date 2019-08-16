@@ -48,90 +48,98 @@ public class GameController : MonoBehaviour
 
     MenuController menuController;
 
+    public bool inMenu;
+
     void Start()
     {
-        menuController = FindObjectOfType<MenuController>();
-        resourcesIcon = setResourcesIcon;
-        players = new PlayerController[playerCount];
-        for(int i = 0;i<playerCount; i++)
+        if (!inMenu)
         {
-            players[i] = Instantiate(playerPrefab, Vector3.zero, Quaternion.identity).GetComponent<PlayerController>();
+            menuController = FindObjectOfType<MenuController>();
+            resourcesIcon = setResourcesIcon;
+            players = new PlayerController[playerCount];
+            for (int i = 0; i < playerCount; i++)
+            {
+                players[i] = Instantiate(playerPrefab, Vector3.zero, Quaternion.identity).GetComponent<PlayerController>();
+            }
+            SpawnWeapon(3, 0, false);
+            menuController.DisplayWeapons(weaponSchematics);
+            menuController.DisplayEquipment(armourSchematics, shieldSchematics);
+            menuController.SetMenu("Start");
+            menuController.playerHUD = players[0].GetComponentInChildren<Canvas>();
         }
-        SpawnWeapon(2, 0, false);
-        menuController.DisplayWeapons(weaponSchematics);
-        menuController.DisplayEquipment(armourSchematics, shieldSchematics);
-        menuController.SetMenu("Start");
-        menuController.playerHUD = players[0].GetComponentInChildren<Canvas>();
     }
     
     void Update()
     {
-        if (!gameover)
+        if (!inMenu)
         {
-            if (waveStarted)
+            if (!gameover)
             {
-                if (waveTimer > 0)
+                if (waveStarted)
                 {
-                    float waveProgress = 1 - waveTimer / waveTime;
-                    for (int i = 0; i < currentWave.spawnPool.Length; i++)
+                    if (waveTimer > 0)
                     {
-                        if (currentWave.spawnPool[i].enemiesSpawned >= currentWave.spawnPool[i].count || waveProgress < currentWave.spawnPool[i].startDistribution || waveProgress >= currentWave.spawnPool[i].endDistribution) continue;
-
-                        if (currentWave.spawnPool[i].spawnTimer <= 0)
+                        float waveProgress = 1 - waveTimer / waveTime;
+                        for (int i = 0; i < currentWave.spawnPool.Length; i++)
                         {
-                            SpawnEnemy(currentWave.spawnPool[i]);
+                            if (currentWave.spawnPool[i].enemiesSpawned >= currentWave.spawnPool[i].count || waveProgress < currentWave.spawnPool[i].startDistribution || waveProgress >= currentWave.spawnPool[i].endDistribution) continue;
 
-                            float newOffset = Random.Range(0, 1f);
-                            currentWave.spawnPool[i].spawnTimer = (currentWave.spawnPool[i].maxSpawnTimer * (1 - currentWave.spawnPool[i].timerOffset)) + (currentWave.spawnPool[i].maxSpawnTimer * newOffset);
-                            currentWave.spawnPool[i].timerOffset = newOffset;
-                            currentWave.spawnPool[i].enemiesSpawned++;
+                            if (currentWave.spawnPool[i].spawnTimer <= 0)
+                            {
+                                SpawnEnemy(currentWave.spawnPool[i]);
+
+                                float newOffset = Random.Range(0, 1f);
+                                currentWave.spawnPool[i].spawnTimer = (currentWave.spawnPool[i].maxSpawnTimer * (1 - currentWave.spawnPool[i].timerOffset)) + (currentWave.spawnPool[i].maxSpawnTimer * newOffset);
+                                currentWave.spawnPool[i].timerOffset = newOffset;
+                                currentWave.spawnPool[i].enemiesSpawned++;
+                            }
+                            else
+                            {
+                                currentWave.spawnPool[i].spawnTimer -= Time.deltaTime;
+                            }
                         }
-                        else
-                        {
-                            currentWave.spawnPool[i].spawnTimer -= Time.deltaTime;
-                        }
+                        waveTimer -= Time.deltaTime;
                     }
-                    waveTimer -= Time.deltaTime;
-                }
-                else
-                {
-                    EndWave();
-                }
-            }
-            else if (waveIndex > 0)
-            {
-                if (waveTimer > 0)
-                {
-                    waveText.text = "NEXT WAVE: " + " " + waveTimer.ToString("0.0");
-                    waveTimer -= Time.deltaTime;
-                    if (!waveCleared && FindObjectsOfType<EnemyController>().Length == 0)
+                    else
                     {
-                        waveCleared = true;
-                        menuController.SetMenu("NextWave", true, true, false);
+                        EndWave();
                     }
                 }
-                else
+                else if (waveIndex > 0)
                 {
-                    StartWave();
+                    if (waveTimer > 0)
+                    {
+                        waveText.text = "NEXT WAVE: " + " " + waveTimer.ToString("0.0");
+                        waveTimer -= Time.deltaTime;
+                        if (!waveCleared && FindObjectsOfType<EnemyController>().Length == 0)
+                        {
+                            waveCleared = true;
+                            menuController.SetMenu("NextWave", true, true, false);
+                        }
+                    }
+                    else
+                    {
+                        StartWave();
+                    }
                 }
             }
-        }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            PauseUnpause();
-        }
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                PauseUnpause();
+            }
 
-        if (players[0].IsInsideBase(baseSize))
-        {
-            if (Input.GetButtonDown("Buy"))
+            if (players[0].IsInsideBase(baseSize))
+            {
+                if (Input.GetButtonDown("Buy"))
+                {
+                    menuController.SetMenu("Buy");
+                }
+            }
+            else if (menuController.GetMenu() == "Buy")
             {
                 menuController.SetMenu("Buy");
             }
-        }
-        else if (menuController.GetMenu() == "Buy")
-        {
-            menuController.SetMenu("Buy");
         }
     }
 
@@ -209,7 +217,7 @@ public class GameController : MonoBehaviour
         AddResource(-resources);
         KillAll();
         players[0].Respawn();
-        SpawnWeapon(2, 0);
+        SpawnWeapon(3, 0);
         waveText.text = null;
         menuController.DisplayWeapons(weaponSchematics);
         menuController.DisplayEquipment(armourSchematics, shieldSchematics);
