@@ -42,7 +42,7 @@ public class Agent : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
+    protected virtual void FixedUpdate()
     {
         rigidbody.AddForce(movement * speed);
     }

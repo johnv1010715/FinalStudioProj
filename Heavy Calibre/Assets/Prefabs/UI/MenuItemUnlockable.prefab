@@ -113,8 +113,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -19.1, y: -47}
-  m_SizeDelta: {x: 56.21, y: 30}
+  m_AnchoredPosition: {x: -8.7, y: -47}
+  m_SizeDelta: {x: 72.1, y: 30}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &6213243290555888464
 CanvasRenderer:
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.38039216, b: 0.67058825, a: 1}
+  m_Color: {r: 1, g: 0.3764706, b: 0.8392157, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -157,7 +157,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: x 0
+  m_Text: x 0000
 --- !u!1 &6213243290937119744
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,7 +277,7 @@ MonoBehaviour:
     m_SelectedTrigger: Highlighted
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 6213243290937119747}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -366,7 +366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.38039216, b: 0.67058825, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:

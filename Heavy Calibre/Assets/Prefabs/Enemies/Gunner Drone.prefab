@@ -104,7 +104,7 @@ Transform:
   m_GameObject: {fileID: 5436648877335528982}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 1.251, z: 0.391}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 5239421650963723446}
   m_Father: {fileID: 6251901387093664547}
@@ -155,6 +155,36 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &5773375375840672534
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2491902764630626362}
+  m_Layer: 0
+  m_Name: Pspawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2491902764630626362
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5773375375840672534}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.021, z: 1.497}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6251901387093664547}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6960435170770653488
 GameObject:
   m_ObjectHideFlags: 0
@@ -166,8 +196,8 @@ GameObject:
   - component: {fileID: 6251901387093664547}
   - component: {fileID: 1965112957037864936}
   - component: {fileID: 8561351173131027232}
-  - component: {fileID: 2301962704631365587}
-  - component: {fileID: 4055831151974665817}
+  - component: {fileID: 6077779473399703256}
+  - component: {fileID: 7218411776463247692}
   m_Layer: 0
   m_Name: Gunner Drone
   m_TagString: Untagged
@@ -182,12 +212,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6960435170770653488}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1222940488954118119}
   - {fileID: 3359471290696545783}
+  - {fileID: 2491902764630626362}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -198,7 +229,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6960435170770653488}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 268b3a12e16ac6249b4adfc1f5e51f2b, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
@@ -221,7 +252,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &2301962704631365587
+--- !u!114 &6077779473399703256
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -230,10 +261,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6960435170770653488}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5cf9c653e36b6943bf0ef0bff1ab3c4, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f1c1ee0a7a6a0242991c65b8c3315b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 15
+  maxSpeed: 10
   health:
     maxValue: 50
     value: 0
@@ -259,31 +290,54 @@ MonoBehaviour:
   damage: 25
   force: 500
   maxAttackCooldown: 0.1
-  weapon: {fileID: 0}
-  maxStuckTime: 0.5
-  minStuckDistance: 0.1
-  unStickForce: 200
+  weapon: {fileID: 7218411776463247692}
   points: 200
-  drop: {fileID: 1463319262316087698, guid: e115ab5ad259e6747aecdb3746569c43, type: 3}
---- !u!95 &4055831151974665817
-Animator:
-  serializedVersion: 3
+  drop: {fileID: 0}
+  maxStuckTime: 0.1
+  minStuckDistance: 0.1
+  unStickForce: 100
+--- !u!114 &7218411776463247692
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6960435170770653488}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 94c6197cf74e3a44083493fa7ffcd3d8, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fce173d41565c18428bee12d99d793f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    projectile: {fileID: 8828154103584114523, guid: 8115ea92f0a2b2b4f926b6cf9be690c1,
+      type: 3}
+    initialVelocity: 60
+    recoil: 50
+    minAccuracy: 5
+    maxAccuracy: 20
+    spreadDelta: 1
+    maxStability: 0.2
+    recoveryTime: 0.5
+    stabilityTime: 0.5
+    burstCount: 00000000
+    maxCooldown:
+    - 0.1
+    maxWarmup: 0
+    maxCapacity: 0
+    weight: 0
+    mobility: 1
+    oneHanded: 0
+  pSpawn:
+  - {fileID: 2491902764630626362}
+  effect: {fileID: 0}
+  effectDelay: 0
+  eSpawn: {fileID: 0}
+  equiped: 0
+  equipmentIndex: 0
+  targetTransform: {fileID: 0}
+  agent: {fileID: 0}
+  other: {fileID: 0}
+  ignorObstruction: 1
 --- !u!1001 &6441905918500670816
 PrefabInstance:
   m_ObjectHideFlags: 0

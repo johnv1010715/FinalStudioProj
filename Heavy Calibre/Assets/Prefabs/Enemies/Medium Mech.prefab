@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 7486088109623085996}
   - component: {fileID: 1794762962361034374}
   - component: {fileID: 6761071999746476478}
-  - component: {fileID: 4863356168918822403}
-  - component: {fileID: 726482988588591804}
+  - component: {fileID: 8777959232711890079}
+  - component: {fileID: 7668042688488815488}
+  - component: {fileID: 591390596047565618}
   m_Layer: 0
   m_Name: Medium Mech
   m_TagString: Untagged
@@ -58,15 +59,15 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220893055138131787}
   serializedVersion: 2
-  m_Mass: 2
-  m_Drag: 1.5
+  m_Mass: 10
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &4863356168918822403
+--- !u!114 &8777959232711890079
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -75,12 +76,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1220893055138131787}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5cf9c653e36b6943bf0ef0bff1ab3c4, type: 3}
+  m_Script: {fileID: 11500000, guid: c07bc54f454ec264dae1a5435059c55f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 15
+  maxSpeed: 0
   health:
-    maxValue: 200
+    maxValue: 600
     value: 0
   armour:
     maxValue: 0
@@ -96,21 +97,18 @@ MonoBehaviour:
     type: 3}
   killEffect: {fileID: 1389971736841347596, guid: 355157ee391417949b1edcc09f12ab1e,
     type: 3}
-  effectScale: 1.5
-  effectHeight: 0
+  effectScale: 1
+  effectHeight: 0.5
   dontKill: 0
   rigidbody: {fileID: 0}
   id: 0
-  damage: 50
-  force: 1500
-  maxAttackCooldown: 0.5
-  weapon: {fileID: 0}
-  maxStuckTime: 2
-  minStuckDistance: 0.2
-  unStickForce: 300
+  damage: 10
+  force: 100
+  maxAttackCooldown: 0.1
+  weapon: {fileID: 7668042688488815488}
   points: 100
   drop: {fileID: 1463319262316087698, guid: e115ab5ad259e6747aecdb3746569c43, type: 3}
---- !u!114 &726482988588591804
+--- !u!114 &7668042688488815488
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -125,19 +123,19 @@ MonoBehaviour:
   data:
     projectile: {fileID: 8828154103584114523, guid: bcb960ee1b862b04d80c66a4256f12e2,
       type: 3}
-    initialVelocity: 60
-    recoil: 100
-    minAccuracy: 0
-    maxAccuracy: 0
-    spreadDelta: 0
-    maxStability: 0
+    initialVelocity: 100
+    recoil: 500
+    minAccuracy: 0.5
+    maxAccuracy: 1
+    spreadDelta: 1
+    maxStability: 1
     recoveryTime: 0
     stabilityTime: 0
-    burstCount: 01000000
+    burstCount: 00000000
     maxCooldown:
-    - 0
+    - 3
     maxWarmup: 0
-    maxCapacity: 1
+    maxCapacity: 0
     weight: 0
     mobility: 1
     oneHanded: 0
@@ -152,6 +150,28 @@ MonoBehaviour:
   agent: {fileID: 0}
   other: {fileID: 0}
   ignorObstruction: 0
+--- !u!195 &591390596047565618
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220893055138131787}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &1259882524177241735
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,7 +350,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2344250952213719401}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.66, z: 2.325}
+  m_LocalPosition: {x: 0, y: 1.65, z: 3.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7486088109623085996}

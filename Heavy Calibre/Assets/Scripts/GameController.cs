@@ -28,7 +28,7 @@ public class GameController : MonoBehaviour
     float waveTimer;
     int difficulty;
 
-    [SerializeField] float baseSize;
+    [SerializeField] Vector4 baseBounds; // from (w,x) to (y,z)
 
     [SerializeField] Text waveText;
 
@@ -49,12 +49,15 @@ public class GameController : MonoBehaviour
     MenuController menuController;
 
     public bool inMenu;
+    public bool autoStart;
 
     void Start()
     {
+        AddTokens(0);
+        Time.timeScale = 1f;
+        menuController = FindObjectOfType<MenuController>();
         if (!inMenu)
         {
-            menuController = FindObjectOfType<MenuController>();
             resourcesIcon = setResourcesIcon;
             players = new PlayerController[playerCount];
             for (int i = 0; i < playerCount; i++)
@@ -64,8 +67,19 @@ public class GameController : MonoBehaviour
             SpawnWeapon(3, 0, false);
             menuController.DisplayWeapons(weaponSchematics);
             menuController.DisplayEquipment(armourSchematics, shieldSchematics);
-            menuController.SetMenu("Start");
+            if (autoStart)
+            {
+                StartGame();
+            }
+            else
+            {
+                menuController.SetMenu("Start");
+            }
             menuController.playerHUD = players[0].GetComponentInChildren<Canvas>();
+        }
+        else
+        {
+            menuController.SetMenu("Main");
         }
     }
     
@@ -129,7 +143,7 @@ public class GameController : MonoBehaviour
                 PauseUnpause();
             }
 
-            if (players[0].IsInsideBase(baseSize))
+            if (players[0].IsInsideBase(baseBounds))
             {
                 if (Input.GetButtonDown("Buy"))
                 {
@@ -309,14 +323,14 @@ public class GameController : MonoBehaviour
     public void AddResource(int value = 1)
     {
         resources += value;
-        resourceText.text = "x " + resources.ToString("000");
+        resourceText.text = "x " + resources.ToString("0000");
         resourcesIcon.GetComponent<Animator>().SetBool("Trigger",true);
     }
 
     public void AddTokens(int value = 1)
     {
         tokens += value;
-        tokensText.text = "x " + tokens.ToString("000");
+        tokensText.text = "x " + tokens.ToString("0000");
         tokensIcon.GetComponent<Animator>().SetBool("Trigger", true);
     }
 

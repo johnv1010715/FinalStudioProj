@@ -280,9 +280,9 @@ public class PlayerController : Agent
         SelectWeapon(selectedWeapon);
     }
 
-    public bool IsInsideBase(float baseSize)
+    public bool IsInsideBase(Vector4 bounds)
     {
-        return (transform.position.x < baseSize && transform.position.x > -baseSize && transform.position.z < baseSize && transform.position.z > -baseSize);
+        return (transform.position.x >= bounds.x && transform.position.x < bounds.z && transform.position.z >= bounds.y && transform.position.z < bounds.w);
     }
 
     public void Heal(float health)
@@ -306,7 +306,6 @@ public class PlayerController : Agent
             }
         }
         gameController.EndGame();
-        GetComponentInChildren<MeshRenderer>().enabled = false;
         GetComponent<CapsuleCollider>().enabled = false;
         DisplayStats();
         enabled = false;
@@ -316,7 +315,6 @@ public class PlayerController : Agent
     {
         enabled = true;
         transform.position = Vector3.zero;
-        GetComponentInChildren<MeshRenderer>().enabled = true;
         GetComponent<CapsuleCollider>().enabled = true;
         enabled = true;
         shield = new RegenStat{};

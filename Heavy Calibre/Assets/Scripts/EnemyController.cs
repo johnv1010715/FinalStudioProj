@@ -6,13 +6,9 @@ public class EnemyController : Agent
 {
     [SerializeField] float damage, force, maxAttackCooldown;
     float attackCooldown;
-    [SerializeField] Weapon weapon;
+    [SerializeField] protected Weapon weapon;
 
-    PlayerController player;
-
-    [SerializeField] float maxStuckTime, minStuckDistance, unStickForce;
-    float stuckTimer;
-    Vector3 lastPos;
+    protected PlayerController player;
 
     [SerializeField] int points;
     [SerializeField] GameObject drop;
@@ -32,31 +28,9 @@ public class EnemyController : Agent
 
     protected override void Update()
     {
-        base.Update();
         attackCooldown -= Time.deltaTime;
-        if (player.isActiveAndEnabled)
-        {
-            movement = (player.transform.position - transform.position).normalized;
-            if(attackCooldown < 0)
-            {
-
-            }
-        }
-
-        if ((lastPos - transform.position).magnitude <= minStuckDistance)
-        {
-            stuckTimer += Time.deltaTime;
-            if (stuckTimer >= maxStuckTime)
-            {
-                rigidbody.AddForce(Vector3.up * unStickForce);
-                stuckTimer = 0;
-            }
-        }
-        else
-        {
-            stuckTimer = 0;
-        }
-        lastPos = transform.position;
+        movement = (player.transform.position - transform.position).normalized;
+        aimDir = movement.normalized;
     }
 
     private void OnCollisionStay(Collision collision)
@@ -69,7 +43,7 @@ public class EnemyController : Agent
             }
             else if(attackCooldown <= 0)
             {
-                collision.collider.GetComponent<Agent>().Damage(damage, (player.transform.position - transform.position).normalized * force, collision.GetContact(0).point, new HitData());
+                collision.collider.GetComponent<Agent>().Damage(damage, Vector3.zero * force, collision.GetContact(0).point, new HitData());
                 attackCooldown = maxAttackCooldown;
             }
         }
